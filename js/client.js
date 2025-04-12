@@ -1,4 +1,4 @@
-const socket = io('http://127.0.0.1:8000');
+const socket = io('real-time-chat-app-production-9431.up.railway.app');
 
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp')
